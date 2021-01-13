@@ -22,7 +22,7 @@ class M_menu extends CI_Model {
 	public function get_makanan()
 	{
 		$this->db->select('*');
-		$this->db->where('kategori', 'makanan');
+		$this->db->where('kategori', 'services');
 		$this->db->from('menu');
 		$query = $this->db->get();
 		return $query->result();
@@ -32,7 +32,7 @@ class M_menu extends CI_Model {
 	public function get_minuman()
 	{
 		$this->db->select('*');
-		$this->db->where('kategori', 'minuman');
+		$this->db->where('kategori', 'styles');
 		$this->db->from('menu');
 		$query = $this->db->get();
 		return $query->result();
