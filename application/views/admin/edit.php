@@ -32,8 +32,8 @@
 		        	                <div class="form-group">
 		        	                    <label for="kategori" class="col-form-label">Kategori</label>
 		        	                    <select class="form-control form-control-line form-user-input" id="kategori"  value="<?= $m->kategori?>" name="kategori" >
-		        	                    <option value="Makanan" <?php if($m->kategori == "Makanan") echo 'selected=""'?>>Makanan</option>
-		        	                    <option value="Minuman" <?php if($m->kategori == "Minuman") echo 'selected=""'?>>Minuman</option>
+		        	                    <option value="Makanan" <?php if($m->kategori == "Makanan") echo 'selected=""'?>>Services</option>
+		        	                    <option value="Minuman" <?php if($m->kategori == "Minuman") echo 'selected=""'?>>Styles</option>
 		        	                  </select>
 		        	                </div>
 		        	                <div class="form-group">
